@@ -65,10 +65,13 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
+  font-family: 'Roboto','sans-serif', 'Helvetica'; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
+  padding: 14px 20px;
+  border: none;
+  background-color: #f5f5f5;
 }
 
 /**
@@ -101,6 +104,7 @@ button,
 html [type="button"], /* 1 */
 [type="reset"],
 [type="submit"] {
+  background-color: #f0f0f0;
   -webkit-appearance: button; /* 2 */
 }
 
@@ -132,7 +136,6 @@ button:-moz-focusring,
  */
 
 fieldset {
-  border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
