@@ -16,13 +16,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
  * 2. Remove the margin in Firefox and Safari.
  */
 
-button,
-input,
-optgroup,
-select,
-textarea {
+button
+{
+  background-color: #A0A0A0;
   font-family: sans-serif; /* 1 */
   font-size: 100%; /* 1 */
+  border: none;
+  padding: 70x;
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
 }
