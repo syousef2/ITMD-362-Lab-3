@@ -131,6 +131,7 @@ textarea {
 [type="radio"] {
   box-sizing: border-box; 
   display: block;
+  margin-right: 10px;
 
 }
 
@@ -207,7 +208,7 @@ ol li {
   
   
 label {
-  display: block;
+  display: inline-flex;
   color: #2a2a2a;
   margin-bottom: 8px;
   font-size: 1rem;
