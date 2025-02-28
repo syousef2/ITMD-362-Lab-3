@@ -20,7 +20,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: unset;
+	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -65,13 +65,10 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: 'Roboto','sans-serif', 'Helvetica'; /* 1 */
+  font-family: sans-serif; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
-  padding: 14px 20px;
-  border: none;
-  background-color: #f5f5f5;
 }
 
 /**
@@ -104,7 +101,6 @@ button,
 html [type="button"], /* 1 */
 [type="reset"],
 [type="submit"] {
-  background-color: #f0f0f0;
   -webkit-appearance: button; /* 2 */
 }
 
@@ -135,7 +131,27 @@ button:-moz-focusring,
  * Change the border, margin, and padding in all browsers (opinionated).
  */
 
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
 
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
 
 /**
  * 1. Add the correct display in IE 9-.
@@ -182,7 +198,7 @@ textarea {
 
 [type="search"] {
   -webkit-appearance: textfield; /* 1 */
-  outline-offset: 0; /* 2 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
