@@ -129,8 +129,9 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 12px; /* 2 */
+  box-sizing: border-box; 
+  display: block;
+
 }
 
 /**
