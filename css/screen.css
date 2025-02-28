@@ -23,10 +23,8 @@ button
   padding: 14x 18px;
   border-radius: 8px;
   text-align: center;
-  cursor: pointer;
-  font-family: inherit;
 }
-}
+
 
 /**
  * Show the overflow in IE.
