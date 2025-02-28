@@ -20,9 +20,13 @@ button
 {
   background-color: #A0A0A0;
   border: none;
-  padding: 14x 18px;
+  padding: 12x 18px;
   border-radius: 8px;
   text-align: center;
+  font-familt: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  
 }
 
 
