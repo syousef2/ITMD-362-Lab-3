@@ -23,7 +23,7 @@ button
   padding: 12x 18px;
   border-radius: 8px;
   text-align: center;
-  font-familt: inherit;
+  font-family: inherit;
   font-size: 1rem;
   cursor: pointer;
   
@@ -40,7 +40,7 @@ input {
   overflow: visible;
   outline: none;
   font-size: 1rem;
-  padding: 12px;
+  padding: 12px ;
   width:100%;
   background: #e6e6e6;
   border: none;
