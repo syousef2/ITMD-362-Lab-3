@@ -34,8 +34,10 @@ button
 input { 
   overflow: visible;
   outline: none;
+  font-size: 1rem;
   padding: 12px;
-  background-color: #e6e6e6;
+  width:100%;
+  background: #e6e6e6;
   border: none;
   border-radius: 8px;
   box-shadow: none;
@@ -190,7 +192,8 @@ html {
   padding: 1rem; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
   font-family: 'Inter', 'Roboto', sans-serif;
-  background-color: #f9f9f9;
+  background: #f9f9f9;
+  color: #2a2a2a;
 }
 
 ol {
@@ -227,7 +230,6 @@ main {
   width: 100%;
   max-width: 400px;
   padding: 20px;
-  background: #f0f0f0;
 }  
   
 
